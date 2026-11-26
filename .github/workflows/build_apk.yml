@@ -9,7 +9,6 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - uses: android-actions/setup-android@v3
       - name: Build APK
         run: |
           gradle wrapper --gradle-version 8.7
